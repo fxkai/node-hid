@@ -18,7 +18,8 @@
             [ 'driver=="libusb"', {
               'sources': [ 'hidapi/libusb/hid.c' ],
               'include_dirs+': [
-                '../../../../../../../../../staging/usr/include/libusb-1.0/'
+                '../../../../../../../../../staging/usr/include/libusb-1.0/',
+                '/usr/include/libusb-1.0/'
               ]
             }],
             [ 'driver=="hidraw"', {
